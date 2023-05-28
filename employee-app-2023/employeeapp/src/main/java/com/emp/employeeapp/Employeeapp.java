@@ -3,15 +3,24 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.emp;
+package com.emp.employeeapp;
+
+import com.emp.ui.HomeFrame;
 
 /**
  *
  * @author devzo
  */
-public class EmployeeApp {
+public class Employeeapp {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+      
+        
+        HomeFrame homeFrame = new HomeFrame();
+        homeFrame.setLocationRelativeTo(null);
+        homeFrame.setVisible(true);
+        
+        
+        
     }
 }
